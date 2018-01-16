@@ -16,15 +16,16 @@
         </f7-block>
         <f7-block-title class="searchbar-found">Links</f7-block-title>
         <f7-list class="components-list searchbar-found">
-            <f7-list-item link="/about/" title="About" panel-close>
-                <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
-            </f7-list-item>
-            <f7-list-item link="/form/" title="Form" panel-close>
+            <f7-list-item link="/form/" title="Form">
                 <f7-icon slot="media" icon="fa fa-vcard-o fa-fw"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="/dynamic-route/blog/11/post/23/" title="Dynamic Route" panel-close>
+            <f7-list-item link="/dynamic-route/blog/11/post/23/" title="Dynamic Route">
                 <f7-icon slot="media" icon="fa fa-rss fa-fw"></f7-icon>
             </f7-list-item>
+            <f7-list-item link="/about/" title="About">
+                <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
+            </f7-list-item>
+            <f7-list-item link="/tabs-routable/" title="Routable Tabs, hide navbar on scroll" />
         </f7-list>
         <f7-list class="searchbar-not-found">
             <f7-list-item title="Nothing found"></f7-list-item>
@@ -40,5 +41,4 @@
 </template>
 <script>
 export default {};
-
 </script>

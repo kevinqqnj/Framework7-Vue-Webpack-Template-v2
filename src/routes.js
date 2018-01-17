@@ -7,6 +7,10 @@ export default [{
         component: require('./pages/about.vue')
     },
     {
+        path: '/data-table/',
+        component: require('./pages/data-table.vue')
+    },
+    {
         path: '/form/',
         component: require('./pages/form.vue')
     },

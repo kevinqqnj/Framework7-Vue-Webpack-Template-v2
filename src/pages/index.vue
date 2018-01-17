@@ -13,21 +13,24 @@
         <f7-block-title>Introduction</f7-block-title>
         <f7-block inner>
             <p>This is template for Framework7 v2, Vue and Webpack.</p>
-            <p>Here use Font-awesome 5 Icons, you can replace other icons as you like.</p>
+            <p>Here use Font-awesome 5 Icons, you can replace with other icon as you like.</p>
         </f7-block>
         <f7-block-title class="searchbar-found">Links</f7-block-title>
         <f7-list class="components-list searchbar-found">
             <f7-list-item link="/form/" title="Form">
-                <f7-icon slot="media" icon="far fa-list-alt fa-fw"></f7-icon>
+                <f7-icon slot="media" icon="far fa-list-alt fa-lg fa-fw"></f7-icon>
             </f7-list-item>
             <f7-list-item link="/dynamic-route/blog/11/post/23/" title="Dynamic Route">
-                <f7-icon slot="media" icon="far fa-star fa-fw"></f7-icon>
+                <f7-icon slot="media" icon="far fa-star fa-lg fa-fw"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="/about/" title="About">
-                <f7-icon slot="media" icon="fas fa-info fa-fw"></f7-icon>
+            <f7-list-item link="/data-table/" title="Data-table">
+                <f7-icon slot="media" icon="fas fa-table fa-lg fa-fw"></f7-icon>
             </f7-list-item>
             <f7-list-item link="/tabs-routable/" title="Routable Tabs">
-                <f7-icon slot="media" icon="fas fa-th-large fa-fw" color="blue"></f7-icon>
+                <f7-icon slot="media" icon="fas fa-th-large fa-lg fa-fw" color="blue"></f7-icon>
+            </f7-list-item>
+            <f7-list-item link="/about/" title="About">
+                <f7-icon slot="media" icon="fas fa-info fa-lg fa-fw"></f7-icon>
             </f7-list-item>
         </f7-list>
         <f7-list class="searchbar-not-found">

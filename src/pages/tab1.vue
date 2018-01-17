@@ -2,7 +2,10 @@
 	<div>
     <f7-block-title>About 1</f7-block-title>
     <f7-block strong>
-      <p>Framework7 - is a free and open source HTML mobile framework to develo<br><br>p hybrid mobile apps or web apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps tool to show working app prototype as soon as possible in case you need to. Framework7 is created by Vladimir Kharlampidi (iDangero.us).</p>
+      <p>Framework7 - is a free and open source HTML mobile framework to develo<br>
+        <f7-icon icon="fas fa-home fa-lg"></f7-icon><f7-badge color="red" class="fa-badge-lg">7</f7-badge>
+    <f7-icon icon="fas fa-home fa-2x"></f7-icon><f7-badge color="red" class="fa-badge-2x">7</f7-badge>
+    <br>p hybrid mobile apps or web apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps tool to show working app prototype as soon as possible in case you need to. Framework7 is created by Vladimir Kharlampidi (iDangero.us).</p>
       <p><br><br>The main approach of the Framework7 is to give yo<br><br>u an opportunity to create iOS and Android (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!</p>
       <p><br><br>Framework7 is not compatible with all platforms. It is focuse<br><br>d only on iOS and Android (Material) to bring the best experience and simplicity.</p>
       <p>Framework7 is definitely <br><br>for you if you decide <br><br>to build iOS and Android h<br><br>ybrid app (PhoneGap) or web app that looks like a<br><br>nd feels as great native iOS or Android (Material) apps.</p>

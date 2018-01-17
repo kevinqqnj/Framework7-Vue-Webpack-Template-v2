@@ -42,6 +42,9 @@
         </f7-list>
     </f7-page>
 </template>
+	<style>
+
+	</style>
 <script>
 export default {};
 </script>

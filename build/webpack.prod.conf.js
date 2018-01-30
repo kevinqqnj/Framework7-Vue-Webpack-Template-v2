@@ -8,7 +8,8 @@ var CopyWebpackPlugin = require('copy-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+	
 var env = config.build.env
 
 var webpackConfig = merge(baseWebpackConfig, {
@@ -29,10 +30,7 @@ var webpackConfig = merge(baseWebpackConfig, {
     new webpack.DefinePlugin({
       'process.env': env
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
+    new UglifyJsPlugin({
       sourceMap: true
     }),
     // extract css into its own file
